@@ -1,0 +1,6 @@
+jquery-3.6.0.min.js
+**/.sass-cache
+**/.sass-cache/*
+
+**/scss
+**/scss/*

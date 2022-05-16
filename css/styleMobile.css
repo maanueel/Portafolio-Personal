@@ -1,0 +1,151 @@
+.header {
+  width: 100%;
+  height: 70px;
+  background-color: #0B0B0C;
+  display: flex;
+  align-items: center;
+  justify-content: space-between; }
+
+.hamburgerMenu {
+  width: 120px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 40px; }
+  .hamburgerMenu #whats {
+    color: #9EFFA9;
+    font-size: 35px; }
+  .hamburgerMenu span {
+    margin-left: 10px;
+    color: #fff;
+    font-weight: 900; }
+
+.logo {
+  width: 120px;
+  height: 100%; }
+  .logo img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; }
+
+.indice {
+  width: 100%;
+  height: 2.5rem;
+  background-color: #121212;
+  display: flex;
+  align-items: center;
+  justify-content: space-around; }
+  .indice .elemnt {
+    display: inline;
+    opacity: .8; }
+    .indice .elemnt a {
+      text-decoration: none;
+      cursor: pointer;
+      color: #fff; }
+
+* {
+  margin: 0;
+  border: 0; }
+
+body {
+  background-color: #121212;
+  font-family: 'Roboto', sans-serif; }
+
+.presentacion {
+  background-color: #0B1228;
+  width: 100%;
+  height: 27rem;
+  overflow: hidden; }
+  .presentacion img {
+    position: absolute;
+    width: 500px;
+    height: 27rem;
+    object-fit: cover;
+    transform: translateX(-230px);
+    opacity: .7;
+    z-index: 1000; }
+  .presentacion span {
+    color: aliceblue;
+    font-weight: 900;
+    font-size: 7rem;
+    opacity: .02;
+    position: relative;
+    z-index: 10; }
+  .presentacion .saludos {
+    width: 15rem;
+    color: #fff;
+    font-size: 2em;
+    font-weight: 900;
+    text-align: center;
+    position: absolute;
+    top: 11rem;
+    right: 0;
+    z-index: 1000001; }
+    .presentacion .saludos b {
+      font-weight: 900;
+      color: #9EFFA9; }
+  .presentacion .des {
+    width: 14rem;
+    color: #fff;
+    font-size: 1rem;
+    position: absolute;
+    right: 0;
+    top: 20rem;
+    font-weight: 100;
+    text-align: center; }
+  .presentacion .empezar {
+    background-color: #9EFFA9;
+    padding: 20px;
+    border-radius: 50px;
+    width: 150px;
+    border: none;
+    outline: none;
+    position: absolute;
+    right: 0;
+    z-index: 100010;
+    top: 23rem;
+    margin-right: 45px;
+    font-weight: 550;
+    color: #333146; }
+
+@media screen and (min-width: 360px) {
+  .presentacion .saludos {
+    margin-right: 20px; }
+  .presentacion .des {
+    margin-right: 22px; }
+  .presentacion .empezar {
+    margin-right: 55px; } }
+@media screen and (min-width: 240px) and (max-width: 281px) {
+  .presentacion .saludos {
+    font-size: 1.5rem;
+    width: 10rem;
+    margin-right: 10px;
+    top: 11.5rem; }
+  .presentacion .des {
+    width: 9rem;
+    margin-right: 10px;
+    top: 19rem; }
+  .presentacion .empezar {
+    margin-right: 10px; } }
+.proyectos {
+  background-color: #36485E;
+  width: 100%;
+  height: 600px; }
+
+.Lenguajes {
+  background-color: #0B1228;
+  width: 100%;
+  height: 600px; }
+
+.socialmedia {
+  background-color: #36485E;
+  width: 100%;
+  height: 600px; }
+
+.footer {
+  width: 100%;
+  height: 600px;
+  background-color: #0B0B0C; }
+
+/*# sourceMappingURL=styleMobile.css.map */
